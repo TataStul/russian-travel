@@ -1,5 +1,7 @@
 # Проект: Путешествие по России
+Ссылка на просмотр готовой страницы в GitHub Pages: https://tatastul.github.io/russian-travel/
 
+Ниже архив по ПР3:
 ### Обзор
 * Интро
 * Figma

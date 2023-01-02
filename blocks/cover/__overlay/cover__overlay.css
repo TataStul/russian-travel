@@ -12,7 +12,7 @@
     position: absolute;
     background-color: #2a2c2f;
     content: '';
-    opacity: 0.1;
+    opacity: 0.3;
     transition: opacity 0.3s ease;
     left: 0;
     top: 0;
