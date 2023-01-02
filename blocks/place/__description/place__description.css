@@ -1,0 +1,19 @@
+.place__description {
+    max-width: 484px;
+}
+
+@media screen and (max-width: 655px) {
+    .place__description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__description {
+        width: calc(100% - 16px*2);
+        margin-top: 0;
+        margin-left: 16px;
+        margin-bottom: 0;
+        margin-right: 16px;
+    }
+}

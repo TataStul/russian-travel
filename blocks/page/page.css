@@ -1,0 +1,38 @@
+.page {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2A2C2F;
+    min-width: 1100px;
+    max-width: 1600px;
+    min-width: 320px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для больших мониторов с разрешением 4K и ноутбуков */
+    .page {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .page {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    /* стили для смартфонов с максимальной шириной 320 пикселей*/
+    .page {
+        max-width: 320px;
+    }
+}

@@ -1,0 +1,10 @@
+.intro__text {
+    margin-top: 40px;
+    margin-bottom: 33px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    /*line-height: ((16px * 163%) / 100%)*/
+    line-height: 26.08px;
+    color: white;
+}
