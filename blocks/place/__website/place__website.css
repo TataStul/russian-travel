@@ -5,11 +5,8 @@
     justify-content: end;
 }
 
-@media screen and (max-width: 768px) {
-    .place__website {
-        width: 100%;
-    }
-}
+
+/*комментарий от наставника Юрия Семененко: "вообще размер не нужен, он вписывается в одну из колонок, которые ты описываешь гридами" */
 
 @media screen and (max-width: 655px) {
     .place__website {
